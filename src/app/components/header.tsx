@@ -15,15 +15,15 @@ export default function Header() {
         {/* Navigation + CTA */}
         <div className="flex flex-1 justify-end gap-8">
             <nav className="flex items-center gap-9">
+            <Link className="text-[#191011] text-sm font-medium leading-normal" href="/">
+                Home
+            </Link>
             <a className="text-[#191011] text-sm font-medium leading-normal" href="#">
                 Menu
             </a>
-            <a className="text-[#191011] text-sm font-medium leading-normal" href="#">
+            <Link className="text-[#191011] text-sm font-medium leading-normal" href="/catering">
                 Catering
-            </a>
-            <a className="text-[#191011] text-sm font-medium leading-normal" href="#">
-                About
-            </a>
+            </Link>
             <Link className="text-[#191011] text-sm font-medium leading-normal" href="/contact">
                 Contact
             </Link>
